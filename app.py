@@ -86,6 +86,3 @@ def getSentiment():
     sentiment = str(y[0])
     d = {"senitment":sentiment}
     return json.dumps(d)
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80)
