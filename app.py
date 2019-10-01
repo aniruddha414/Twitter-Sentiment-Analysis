@@ -4,6 +4,7 @@ from flask import Flask, request
 import re
 import json
 import pandas as pd
+import nltk
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
