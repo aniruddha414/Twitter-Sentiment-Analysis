@@ -12,6 +12,8 @@ from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.externals import joblib
 
+nltk.download('punkt')
+nltk.download('stopwords')
 
 sw = stopwords.words('english')
 ps = PorterStemmer()
